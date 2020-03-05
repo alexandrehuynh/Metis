@@ -1,7 +1,7 @@
 import sys
 
-phrase = "Hello World this is the first question"
-insert_var = "A"
+phrase = str(input("Enter phrase or string to use: "))
+insert_var = str(input("Enter variable to add: "))
 
 # Function to reverse
 def rev_fuction(x):
